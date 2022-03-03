@@ -1,52 +1,10 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;  
+  margin: 0;  
+}
+
+body {
   background-color: rgb(43, 131, 99);
-  text-align: center;
-  margin: 0 0 0 0;
-  align-items: center;
-}
-
-#profile-information {
-  float: left;
-}
-
-#profile-information p {
-  padding: 2px 20px;
-  font-size: 12px;
-}
-
-
-.main-menu li {
-  list-style: none;
-}
-
-#presentation {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
-  line-height: 20px;
-}
-
-#description {
-  margin-top: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
-  line-height: 40px;
-}
-
-h1 {
-  margin: 0 0 0 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.5rem;
-  color: rgb(255, 255, 255);
-  padding-bottom: 0.5rem;
-  font-weight: bold;
-}
-
-#img-profile {
-  width: 200px;
-  border: 3px rgb(223, 222, 222) solid;
-  border-radius: 50%;
-  box-shadow: 2px 2px 1px rgb(89, 90, 90);
 }
 
 #logo-trybe {
@@ -56,18 +14,75 @@ h1 {
   top: 0;
 }
 
-list {
+#container{
+  padding-top: 20px;
+}
+
+.myname {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#profile-information {
+  height: 250px;
+  position: relative;
+}
+
+#img-profile {
+  height: 240px;
+  border-radius: 50%;
+  float: left;
+  padding: 5px;
+  margin-left: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+#presentation {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  color: rgb(152, 222, 240);
+}
+
+#description {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 40px;
+  top: 20px;
+  left: 270px;
+}
+
+.list {
   
+  text-decoration: none;
   list-style: circle;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
-  line-height: 30px;
+  margin-left: 20px;
+}
+
+.list li:nth-child(odd){
+  background-color: rgb(23, 94, 68);;
 }
 
 ul {
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-bottom: -20px;
   font-weight: bold;
   color: rgb(152, 222, 240);
+}
+
+em {
+  line-height: 35px;
+  margin-left: 50px;
 }
 
 .git {
@@ -82,16 +97,15 @@ ul {
   right: 670px;
 }
 
-
-
 .links-media,
 a {
   margin-top: 20px;
   background-color: rgba(228, 222, 222, 0.2);
   color: aliceblue;
   text-decoration: none;
+  text-align: center;
 }
 
-div {
+/* div {
   border: 2px solid green;
-}
+} */
