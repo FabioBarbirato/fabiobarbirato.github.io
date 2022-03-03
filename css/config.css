@@ -6,6 +6,14 @@
   align-items: center;
 }
 
+#profile-information {
+  float: left;
+}
+
+#profile-information p {
+  padding: 2px 20px;
+  font-size: 12px;
+}
 
 
 .main-menu li {
@@ -82,4 +90,8 @@ a {
   background-color: rgba(228, 222, 222, 0.2);
   color: aliceblue;
   text-decoration: none;
+}
+
+div {
+  border: 2px solid green;
 }
